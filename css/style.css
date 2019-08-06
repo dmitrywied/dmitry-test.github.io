@@ -610,7 +610,8 @@ header p {
 
 
 @media screen and (max-width: 1280px) {
-		.nav_bar{
-			margin-left: -100px;
+		.nav_bar {
+			position: absolute;
+			margin-left: -500px;
 		}
 }
