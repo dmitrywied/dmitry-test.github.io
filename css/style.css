@@ -607,3 +607,10 @@ header p {
 .slide-leave-to {
   transform: translate(-100%, 0);
 }
+
+
+@media screen and (max-width: 1280px) {
+		.nav_bar{
+			margin-left: -100px;
+		}
+}
