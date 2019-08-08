@@ -609,9 +609,62 @@ header p {
 }
 
 
-@media screen and (max-width: 1280px) {
-		.nav_bar {
-			position: absolute;
-			margin-left: -500px;
-		}
+@media only screen and (max-width: 1639px) {
+	.two-elem p {
+		margin-left: -160px;
+	}
+	.two-elem h1 {
+		margin-top: 30px;
+		left: 960px;
+	}
+	.two-elem h2 {
+		left: 860px;
+	}
+	.block-elem-footer p {
+		margin-left: -120px;
+	}
+	.block-elem-footer h1 {
+		margin-left: -120px;
+	}
+	.img-0 {
+		width: 556px;
+		height: 401px;
+		margin-left: 170px;
+	}
+	.img-1 {
+		width: 556px;
+		height: 401px;
+		margin-left: 920px;
+		margin-top: -750px;
+	}
+	.btn-now-0 {
+		left: 1110px;
+	}
+	.btn-now-1 {
+		left: 330px;
+	}
+	.inline_elem {
+		margin-left: -270px;
+	}
+}
+
+@media only screen and (max-width: 1375px) {
+	.inline_elem {
+		margin-left: -45px;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.inline_elem {
+		margin-left: -25px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.inline_elem {
+		margin-left: 110px;
+	}
+	.footer-bg {
+		margin-left: 250px;
+	}
 }
